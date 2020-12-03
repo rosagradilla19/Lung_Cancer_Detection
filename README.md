@@ -9,6 +9,5 @@ Methodology:
 2. Identify voxels of potential tumors via segmentation
 3. Group interesting voxels into lumps: here we will find the rough center of each hotspot.
 4. Classify(nodule/non-nodule) candidate nodules using 3D convolution.
-5. Diagnose using the combined per-nodule classifications: determine whether nodule is benign or malignant
 
 Dataset: https://luna16.grand-challenge.org/download/
